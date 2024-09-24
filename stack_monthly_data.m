@@ -24,7 +24,7 @@ d = dir('*carra-month-sfc_wod.nc')
 %%
 NC = [];
 
-for i = 1:3%:length(d)
+for i = 1:length(d)
     filename = [d(i).folder,filesep,d(i).name];
     nc = ncstruct(filename);
 
