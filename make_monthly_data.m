@@ -11,7 +11,7 @@ end
 % Find daily Carra files 
 d = dir([folder,'/*carra-sfc-wod.nc'])
 %%
-for k = 1
+for k = 1:length(d)
     file = [d(k).folder,filesep,d(k).name];
     nc = ncstruct(file);
     disp(file)
