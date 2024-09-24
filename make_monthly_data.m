@@ -8,8 +8,9 @@ elseif isunix
     folder = '/data/carra'
     addpath '/data/git/cdt'
 end
+
 % Find daily Carra files 
-d = dir([folder,'/*carra-sfc-wod.nc'])
+d = dir([folder,'/*-carra-sfc_wod.nc'])
 %%
 for k = 1:length(d)
     file = [d(k).folder,filesep,d(k).name];
