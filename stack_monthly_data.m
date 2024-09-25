@@ -68,7 +68,8 @@ for i = 1:length(d)
     end
 end
 
-
+cd /data/projects/carra
+ save('NC.mat','NC','-v7.3')
 %%
 %     switch var
 %         case 'tp' % Breytum tp út m/da í mm/month
