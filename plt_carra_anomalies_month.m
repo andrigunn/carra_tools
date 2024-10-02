@@ -1,5 +1,7 @@
 load('/Volumes/data/projects/carra/NC.mat')
 %%
+load('/Users/andrigun/Desktop/NC.mat')
+%%
 % Make anomaly plots for CARRA
 % Variable to use
 load('/Users/andrigun/Dropbox/04-Repos/carra_tools/geo_carra.mat')
